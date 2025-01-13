@@ -1,4 +1,14 @@
 Jellyfin
+使用以下配置：
+
+注意：metatube-plugin 的主机名一定要是 metatube-plugin，因为插件里面写的是从此主机名下载插件，插件仓库：http://metatube-plugin/manifest.json⁠
+
+可以添加配置，如volumes挂载卷，可以修改网络，我这里的lan为macvlan驱动到物理网络
+
+添加了扫描至少电影封面中文显示为非中文的情况
+
+插件服务器
+http://metatube-server:8080
 
 ```
 networks:
